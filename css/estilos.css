@@ -1,16 +1,17 @@
 :root {
-  --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --cinza: #0964da;
+  --vermelha: #0e73d1;
+  --vermelha-escura: #003b72;
   --branca: #fff;
-  --luz: rgb(0, 119, 255);
+  --luz: rgb(0, 38, 255);
   --azul: #4287d6
+  --preto
   
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #222222 0%,#4287d6 100%);
+  background: linear-gradient(45deg, #222222 35%,#0e73d1 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -29,7 +30,7 @@ h1 {
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
-  gap: 10px;
+  gap: 15px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
 }
@@ -41,7 +42,7 @@ h1 {
   color: var(--#4287d6);
   cursor: pointer;
   height: 200px;
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-weight: bold;
   line-height: 120px;
   text-align: center;
